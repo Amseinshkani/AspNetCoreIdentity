@@ -8,7 +8,7 @@
 
 <div>
     <form asp-controller="Account" asp-action="Login" asp-route-returnurl="@ViewData["ReturnURL"]" method="post">
-        <div asp-validation-summary="ModelOnly"></div>
+        <div class="text-danger" asp-validation-summary="ModelOnly"></div>
 
         @if (ViewData["ErrorMessage"] != null)
         {
@@ -38,7 +38,7 @@
 </div>
 
 @section scripts{
-    @{
+   @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
 }

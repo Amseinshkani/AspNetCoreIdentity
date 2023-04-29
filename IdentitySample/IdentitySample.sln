@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{559A7EDB-E05D-4E75-B622-0E402A208680}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISApplication", "ISApplication\ISApplication.csproj", "{1506872B-F82F-4153-A83C-1D2FF4DEE336}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISApplication", "ISApplication\ISApplication.csproj", "{1506872B-F82F-4153-A83C-1D2FF4DEE336}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PIED", "PIED\PIED.csproj", "{2A04FE56-4413-405C-8F27-FE6552CA02C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +19,17 @@ Global
 		{1506872B-F82F-4153-A83C-1D2FF4DEE336}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1506872B-F82F-4153-A83C-1D2FF4DEE336}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1506872B-F82F-4153-A83C-1D2FF4DEE336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A04FE56-4413-405C-8F27-FE6552CA02C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A04FE56-4413-405C-8F27-FE6552CA02C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A04FE56-4413-405C-8F27-FE6552CA02C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A04FE56-4413-405C-8F27-FE6552CA02C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1506872B-F82F-4153-A83C-1D2FF4DEE336} = {559A7EDB-E05D-4E75-B622-0E402A208680}
+		{2A04FE56-4413-405C-8F27-FE6552CA02C2} = {559A7EDB-E05D-4E75-B622-0E402A208680}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9453A868-DEDE-44A0-BC94-454D7450EE1E}

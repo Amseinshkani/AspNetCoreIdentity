@@ -24,4 +24,8 @@
     <Folder Include="Entity\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PIED\PIED.csproj" />
+  </ItemGroup>
+
 </Project>

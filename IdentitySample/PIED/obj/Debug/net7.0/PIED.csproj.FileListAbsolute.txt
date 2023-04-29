@@ -1,0 +1,12 @@
+C:\Users\Win11\Desktop\Identity\IdentitySample\PIED\bin\Debug\net7.0\PIED.deps.json
+C:\Users\Win11\Desktop\Identity\IdentitySample\PIED\bin\Debug\net7.0\PIED.dll
+C:\Users\Win11\Desktop\Identity\IdentitySample\PIED\bin\Debug\net7.0\PIED.pdb
+C:\Users\Win11\Desktop\Identity\IdentitySample\PIED\obj\Debug\net7.0\PIED.csproj.AssemblyReference.cache
+C:\Users\Win11\Desktop\Identity\IdentitySample\PIED\obj\Debug\net7.0\PIED.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Win11\Desktop\Identity\IdentitySample\PIED\obj\Debug\net7.0\PIED.AssemblyInfoInputs.cache
+C:\Users\Win11\Desktop\Identity\IdentitySample\PIED\obj\Debug\net7.0\PIED.AssemblyInfo.cs
+C:\Users\Win11\Desktop\Identity\IdentitySample\PIED\obj\Debug\net7.0\PIED.csproj.CoreCompileInputs.cache
+C:\Users\Win11\Desktop\Identity\IdentitySample\PIED\obj\Debug\net7.0\PIED.dll
+C:\Users\Win11\Desktop\Identity\IdentitySample\PIED\obj\Debug\net7.0\refint\PIED.dll
+C:\Users\Win11\Desktop\Identity\IdentitySample\PIED\obj\Debug\net7.0\PIED.pdb
+C:\Users\Win11\Desktop\Identity\IdentitySample\PIED\obj\Debug\net7.0\ref\PIED.dll

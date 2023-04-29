@@ -1,6 +1,7 @@
 using ISApplication.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using PIED;
 
 namespace ISApplication
 {
@@ -13,14 +14,23 @@ namespace ISApplication
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-            builder.Services.AddDbContext<Context>(Options => 
+            builder.Services.AddDbContext<Context>(Options =>
             {
                 Options.UseSqlServer(builder.Configuration.GetConnectionString("DbConnection"));
             });
 
-            builder.Services.AddIdentity<IdentityUser , IdentityRole>()
+            builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
+            {
+                options.Password.RequiredUniqueChars = 0;
+
+                options.User.RequireUniqueEmail = true;
+                
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(1);
+
+            })
                 .AddEntityFrameworkStores<Context>()
-                 .AddDefaultTokenProviders();
+                 .AddDefaultTokenProviders()
+                 .AddErrorDescriber<PersianIdentityError>();
 
 
             var app = builder.Build();
